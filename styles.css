@@ -1,0 +1,105 @@
+/*
+Challenge:
+Change the site's background into a gradient that goes
+from blue at the top to pink at the bottom.
+*/
+
+body {
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    background: url("https://media.giphy.com/media/yOWoBXl9clt5dBDstA/giphy.gif");
+    background-size: cover ;
+    background-repeat: none;
+    color: goldenrod;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+}
+
+#bff-img {
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid purple;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    background: purple;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: purple;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#gift-img-cheers {
+    height: 200px;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 6px solid purple;
+    border-radius: 10px;
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+}
+
+#gift-img-happy:hover {
+    background-image: url("https://media.giphy.com/media/3m1fbOr4UttDYdZStA/giphy.gif");
+    background-size: contain;
+}
+
+#gift-img-hot:hover {
+    background-image: url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDdhZWM5ZjI2Zjc0OWY0MmI0YTE2YmQyNzVkYTg0ODM0MjlkZDRhNCZjdD1n/WttDfBDPj21gs/giphy.gif");
+}
+
+#gift-img-genius:hover {
+    background-image: url("https://media.giphy.com/media/QQ379X8VKGgmrW0DB3/giphy.gif");
+}
+
+#gift-img-badass:hover {
+    background-image: url("https://media.giphy.com/media/QWe5U2c1be6Aiatwfy/giphy.gif");
+}
+
+#gift-img-cheers:hover {
+    background-image: url("https://media.giphy.com/media/h1o3UJobLAjGtmb2g9/giphy.gif");
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: white;
+}
+.gift-hint{
+    text-decoration: underline brown;
+} 
